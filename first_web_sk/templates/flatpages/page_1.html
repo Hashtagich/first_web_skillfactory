@@ -1,0 +1,12 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+{{ flatpages.title }}
+{% endblock title %}
+
+{% block body %}
+<h1><i>{{ flatpage.content }}</i></h1>
+<hr>
+<i>На этой странице текст полностью оформлен курсивом, кроме верхней панели т.к. она общая для всех страниц.</i>
+
+{% endblock body %}
