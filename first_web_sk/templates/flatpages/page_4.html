@@ -1,0 +1,16 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+{% block body %}
+
+
+<p>На этой странице изменены <i><small>шрифты</small></i> и <b><big>размеры текста</big></b>. В качестве примера мы изменим content в панели администратора и в файле <i>html</i> </p>
+<hr>
+<p></p>
+{{ flatpage.content }}
+
+
+{% endblock body %}
